@@ -3,3 +3,6 @@
 ## 강의 주소 : https://www.inflearn.com/course/자바-스프링-강좌/
 ### 스터디의 내용을 각 단계별 branch에 업로드 중입니다.
 ### master branch는 마지막에 종합 파일로 업로드 할  예정입니다.
+### branch1 : https://github.com/leedongjoon121/SpringFramework_study/tree/lecture1
+### branch2 : https://github.com/leedongjoon121/SpringFramework_study/tree/lecture2
+### branch3 : https://github.com/leedongjoon121/SpringFramework_study/tree/lecture3
