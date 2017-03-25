@@ -19,3 +19,7 @@
 ## applicationCTM.xml 파일 MyInfo 클래스에 나의 신체지수 Data를 전달하여 주입시킴
 ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture3/img/xml_2.JPG?raw=true)
 <br/>
+
+## 결과값 :     .. 저체중이 나왔다..... 운동을 하여 근육량을 키워야 겠다...
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture3/img/result.JPG?raw=true)
+<br/>
