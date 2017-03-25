@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!-- BMICalculator 클래스 각 수치별로 저체중 ~ 과체중으로 나누어 놓음 -->
+	<bean id="bmiCalcaulator" class="com.javalec.ex.BMICalculator">
+		<property name="lowWeight">
+			<value>18.5</value>
+		</property>
+		<property name="normal">
+			<value>23</value>
+		</property>
+		<property name="overWeight">
+			<value>25</value>
+		</property>
+		<property name="obesity">
+			<value>30</value>
+		</property>
+	</bean>
+	
+	<!-- 기본값으로 홍길동에 대한 내용  xml에서 값을 넣어 줌! -->
+	<bean id="myInfo" class="com.javalec.ex.MyInfo">
+		<property name="name">
+			<value>이동준</value>
+		</property>
+		<property name="height">
+			<value>185</value>
+		</property>
+		<property name="weight">
+			<value>72</value>
+		</property>
+		<property name="hobbys">
+			<list>
+				<value>농구</value>
+				<value>영화</value>
+				<value>독서</value>
+			</list>
+		</property>
+		<property name="bmiCalculator">
+			<ref bean="bmiCalcaulator"/>
+		</property>
+	</bean>
+
+</beans>
