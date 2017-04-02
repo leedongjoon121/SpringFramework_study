@@ -33,3 +33,8 @@
   컨테이너는 살려두고 Bean만 소멸 시키고자 한다면 xxx.destroy() 메서드 사용하면 됨 <br/>
      
 2. 애너테이션 이용
+> @PostConstruct <br/>
+  만약 빈이 생성될때 무엇인가 하고 싶으면 @PostConstruct 이것만 붙이면 된다. 메서드 이름은 상관 없음 <br/>
+
+> @PreDestroy <br/>
+  만약 빈이 소멸될때 무엇인가 하고 싶으면 @PreDestroy 이것만 붙이면 된다. 메서드 이름은 상관 없음 <br/>
