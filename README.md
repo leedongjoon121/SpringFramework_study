@@ -7,3 +7,5 @@
 ### branch2 : https://github.com/leedongjoon121/SpringFramework_study/tree/lecture2
 ### branch3 : https://github.com/leedongjoon121/SpringFramework_study/tree/lecture3
 ### branch4 : https://github.com/leedongjoon121/SpringFramework_study/tree/lecture4
+### branch5 : https://github.com/leedongjoon121/SpringFramework_study/tree/lecture5
+### branch6 : https://github.com/leedongjoon121/SpringFramework_study/tree/lecture6
