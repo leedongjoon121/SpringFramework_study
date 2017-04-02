@@ -6,7 +6,8 @@
 ## Main 클래스1 
 - config 파일이 두개이기 때문에 configLocation1,2를 설정하고,
 - new GenericXmlApplicationContext(configLocation1, configLocation2); 처럼 두개의 config파일을 매핑
-
+- student클래스를 레퍼런싱하여 StudentInfo클래스를 생성한다.
+- 즉, StudentInfo클래스는 student클래스와 동일한 값이 된다.
 ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture4/img/main1.JPG?raw=true)
 
 <br/>
@@ -54,3 +55,6 @@
 ## FmailyClass
 - xml에서 각 bean객체에 해당하는 값을 매핑시켜 준다.
 ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture4/img/familyclass.JPG?raw=true)
+
+## Result
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture4/img/result.JPG?raw=true)
