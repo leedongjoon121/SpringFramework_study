@@ -56,5 +56,7 @@
 - xml에서 각 bean객체에 해당하는 값을 매핑시켜 준다.
 ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture4/img/familyclass.JPG?raw=true)
 
+<br/>
+
 ## Result
 ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture4/img/result.JPG?raw=true)
