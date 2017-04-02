@@ -14,6 +14,8 @@
 4. 스프링 컨테이너 종료
 - ctx.close();  // 컨테이너 종료 단계
 
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture6/img/Main.JPG?raw=true)
+
 <br/>
 
 ## 스프링 빈 생명주기 
@@ -31,10 +33,18 @@
   ctx.close()  : 자원이 소멸 됨 <br/>
   컨테이너가 소멸되는 과정으로써, 컨테이너가 소멸되면 Bean도 자동 소멸됨 <br/>
   컨테이너는 살려두고 Bean만 소멸 시키고자 한다면 xxx.destroy() 메서드 사용하면 됨 <br/>
-     
+
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture6/img/Student.JPG?raw=true)
+
+<br/>
+
 2. 애너테이션 이용
 > @PostConstruct <br/>
   만약 빈이 생성될때 무엇인가 하고 싶으면 @PostConstruct 이것만 붙이면 된다. 메서드 이름은 상관 없음 <br/>
 
 > @PreDestroy <br/>
   만약 빈이 소멸될때 무엇인가 하고 싶으면 @PreDestroy 이것만 붙이면 된다. 메서드 이름은 상관 없음 <br/>
+  
+  ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture6/img/Otherstudent.JPG?raw=true)
+  
+  <br/>
