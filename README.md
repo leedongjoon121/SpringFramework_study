@@ -22,11 +22,11 @@
 <br/>
 
 1. 인터페이스 이용
-> InitializingBean 이라는 인터페이스 <br/>
+> InitializingBean 인터페이스 사용 <br/>
   Bean이 초기화되는 시점에, 반드시 afterPropertiesSet() 이라는 메서드를 오버라이드 하게 되어 있음 <br/>
      ctx.refresh()  : 이때 생성이됨, bean이 초기화 되야 생성됨 <br/>
 
-> DisposableBean 이라는 인터페이스 <br/>
+> DisposableBean 인터페이스 사용 <br/>
   Bean이 소멸되는 과정에 destroy() 라는 메서드를 오버라이드 <br/>
   ctx.close()  : 자원이 소멸 됨 <br/>
   컨테이너가 소멸되는 과정으로써, 컨테이너가 소멸되면 Bean도 자동 소멸됨 <br/>
