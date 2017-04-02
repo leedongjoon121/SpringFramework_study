@@ -57,3 +57,8 @@
 ## applicationCTX 클래스
 ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture6/img/applicationCTX.JPG?raw=true)
 
+<br/>
+
+## Result 
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture6/img/result.JPG?raw=true)
+
