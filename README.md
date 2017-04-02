@@ -19,7 +19,7 @@
 <br/>
 
 ## 스프링 빈 생명주기 
-> 인터페이스를 이용 or 애너테이션을 이용
+- 인터페이스를 이용 or 애너테이션을 이용
 
 <br/>
 
@@ -45,6 +45,15 @@
 > @PreDestroy <br/>
   만약 빈이 소멸될때 무엇인가 하고 싶으면 @PreDestroy 이것만 붙이면 된다. 메서드 이름은 상관 없음 <br/>
   
-  ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture6/img/Otherstudent.JPG?raw=true)
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture6/img/Otherstudent.JPG?raw=true)
   
-  <br/>
+<br/>
+
+## Dongjoon 클래스
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture6/img/Dongjoon.JPG?raw=true)
+
+<br/>
+
+## applicationCTX 클래스
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture6/img/applicationCTX.JPG?raw=true)
+
