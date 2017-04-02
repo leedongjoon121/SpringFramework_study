@@ -7,4 +7,10 @@
 - 총 두개의 Bean 객체가 된다.
 - 생성자를 통해 매핑 하는방식 : Student student = new Student("First_Bean_홍길동", 20, hobbys);
 - Property를 이용하여 Setter메서드를 이용하는 방식 : student.setHeight(180);    student.setWeight(80);
+
 ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture5/img/applicationconfig1.JPG?raw=true)
+
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture5/img/applicationconfig2.JPG?raw=true)
+<br/>
+
+
