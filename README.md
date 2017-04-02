@@ -31,8 +31,26 @@
 - 단, 네임스페이스를 사용하고자 할때는 
 > xmlns:c="http://www.springframework.org/schema/c"
 
-<br/>
-
 >	xmlns:p="http://www.springframework.org/schema/p"
 - 위와  설정을 xml파일에 명시해 주어야 한다.
 ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture4/img/applicationCTX1.JPG?raw=true)
+
+<br/>
+
+## StudentClass
+- student 클래스로써, 이름&나이&취미를 constructor를 통해 매핑
+- 나머지 키&몸무게는 setter메서드를 통해 매핑
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture4/img/Studentclass.JPG?raw=true)
+
+<br/>
+
+## StudentInfoClass
+- Main클래스에서 student클래스를 레퍼런싱하여 StudentInfo클래스를 생성한다.
+- 즉, StudentInfo클래스는 student클래스와 동일한 값이 된다.
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture4/img/StudentInfoclass.JPG?raw=true)
+
+<br/>
+
+## FmailyClass
+- xml에서 각 bean객체에 해당하는 값을 매핑시켜 준다.
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture4/img/familyclass.JPG?raw=true)
