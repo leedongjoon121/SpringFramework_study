@@ -30,6 +30,9 @@
 - c의 의미는 constructor(생성자)를 의미하며, p의 의미는 property(setter메서드를 통해 생성)를 의미한다.
 - 단, 네임스페이스를 사용하고자 할때는 
 > xmlns:c="http://www.springframework.org/schema/c"
+
+<br/>
+
 >	xmlns:p="http://www.springframework.org/schema/p"
 - 위와  설정을 xml파일에 명시해 주어야 한다.
 ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture4/img/applicationCTX1.JPG?raw=true)
