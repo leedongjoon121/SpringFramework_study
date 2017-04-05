@@ -7,3 +7,22 @@
   프로퍼티 추가 : propertySources.addLast()  <br/>
   프로퍼티 추출 : env.getProperty()
   
+<br/>
+
+## Main 
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture8/img/Main.JPG?raw=true)
+
+<br/>
+
+## AdminConnection
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture8/img/AdminConnection.JPG?raw=true)
+
+<br/>
+
+## admin.properties
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture8/img/admin_properties.JPG?raw=true)
+
+<br/>
+
+## applicationCTX
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture8/img/applicationCTX.JPG?raw=true)
