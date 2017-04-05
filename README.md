@@ -4,8 +4,8 @@
 - 1. Context 파일을 만든다.  - ctx.getEnvironment() 를 한다.
 - 2. Environment 객체 생성 - env.getPropertySources()   <br/>
   property 들이 위치 하게 됨 -> 이 프로퍼티 들의 소스들을 전부 가져옴 
-- 3. PropertySources 객체 구함
-- 프로퍼티 추가 : propertySources.addLast()  <br/>
+- 3. PropertySources 객체 구함         <br/>
+  프로퍼티 추가 : propertySources.addLast()  <br/>
   프로퍼티 추출 : env.getProperty()
   
 2. 프로퍼티 파일을 이용한 설정 
