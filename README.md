@@ -26,3 +26,10 @@
 
 ## applicationCTX
 ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture8/img/applicationCTX.JPG?raw=true)
+
+<br/>
+
+## Result
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture8/img/Result.JPG?raw=true)
+
+<br/>
