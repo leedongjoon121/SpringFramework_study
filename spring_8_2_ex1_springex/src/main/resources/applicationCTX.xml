@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">
+	
+	
+	<!-- context:property-placeholder : 외부에 있는 파일들을 가져 올 수 있는 키워드 
+	    이걸 사용하기 위해선 bean 에서 xmlns:context="http://www.springframework.org/schema/context"를 포함 해야 함
+	    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd 이것도 명시!
+	-->
+	<context:property-placeholder location="classpath:admin.properties, classpath:sub_admin.properties" />
+	
+	
+	<!-- com.javalec.ex.AdminConnection 로 부터  빈을 생성  -->
+	<bean id="adminConnection" class="com.javalec.ex.AdminConnection" >
+	   <!-- admin.properties와 sub_admin.properties를 둘다 참조 할 수있음. 
+	            따라서 아래 property에서 참조할때 외부 설정 파일 내용을 가져와서 설정함
+	    -->
+		<property name="adminId">
+			<value>${admin.id}</value>
+		</property>
+		<property name="adminPw">
+			<value>${admin.pw}</value>
+		</property>
+		<property name="sub_adminId">
+			<value>${sub_admin.id}</value>
+		</property>
+		<property name="sub_adminPw">
+			<value>${sub_admin.pw}</value>
+		</property>
+	</bean>
+
+</beans>
