@@ -1,8 +1,13 @@
-# Study
+# 외부파일을 이용한 설정
 
 * [1. 에너테이션방식](#에너테이션방식)
 * [2. 프로파일방식(xml)](#프로파일방식1)
 * [3. 프로파일방식(java)](#프로파일방식2)
+
+<hr/>
+
+<br/>
+<br/>
 
 # 에너테이션방식
 - 에너테이션방식(클래스)
@@ -45,6 +50,7 @@
 
 
 <br/>
+<br/>
 
 # 프로파일방식1
 - 프로파일(profile) 속성을 이용한 설정
@@ -73,6 +79,8 @@
 
 ## ApplicationCTX_run
 ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture10/img/applicationCTX_run.PNG?raw=true)
+
+<br/>
 
 
 # 프로파일방식2
