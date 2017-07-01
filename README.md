@@ -5,8 +5,7 @@
 
 ## 에너테이션방식
 - 에너테이션방식(클래스)
-
-### 외부 파일을 이용한 방식
+- 외부 파일을 이용한 방식
 
 <br/>
 
@@ -52,5 +51,25 @@
 
 ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture10/img/theory.PNG?raw=true)
 
+
+<br/>
+
+## MainClass
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture10/img/8_3-Mainclass.PNG?raw=true)
+
+<br/>
+
+## ServerInfo
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture10/img/8_3-ServerInfo.PNG?raw=true)
+
+<br/>
+
+## ApplicationCTX_dev
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture10/img/8-3-applicationCTX_dev.PNG?raw=true)
+
+<br/>
+
+## ApplicationCTX_run
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture10/img/applicationCTX_run.PNG?raw=true)
 
 
