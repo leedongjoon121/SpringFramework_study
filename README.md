@@ -82,6 +82,11 @@
 
 <br/>
 
+## Result
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture10/img/result.PNG?raw=true)
+
+<br/>
+
 
 # 프로파일방식2
 - xml 방식과 로직은 비슷하며 다만, 에너테이션방식이므로 더 간편하다
