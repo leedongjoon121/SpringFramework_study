@@ -38,5 +38,12 @@
 ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture10/img/result.PNG?raw=true)
 
 
+<br/>
+
+## 프로파일(profile) 속성을 이용한 설정
+- 동일한 스프링 빈을 여러개 만들어 놓고 상황(환경)에 따라서 적절한 스프링 빈을 사용할 수 있다.
+
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture10/img/theory.PNG?raw=true)
+
 
 
