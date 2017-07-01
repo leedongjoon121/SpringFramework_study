@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+	profile="dev">  <!-- ☆★☆★☆★☆★☆★☆★ 반드시  profile=""  프로파일을 명시 해 준다. ☆★☆★☆★☆★☆★☆★ -->
+
+<!-- 개발 환경 이니깐 localhost 상에서 한다고 가정 한다. -->
+	<bean id="serverInfo" class="com.javalec.ex.ServerInfo">
+		<property name="ipNum" value="localhost"></property>
+		<property name="portNum" value="8181"></property>
+	</bean>
+
+</beans>

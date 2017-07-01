@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+	profile="run">  <!-- ☆★☆★☆★☆★☆★☆★ 반드시  profile=""  프로파일을 명시 해 준다. ☆★☆★☆★☆★☆★☆★ -->
+
+<!-- 실행 환경 이니깐 특정 포트상에서 한다고 가정 한다. -->
+	<bean id="serverInfo" class="com.javalec.ex.ServerInfo">
+		<property name="ipNum" value="213.186.229.29"></property>
+		<property name="portNum" value="80"></property>
+	</bean>
+
+</beans>
