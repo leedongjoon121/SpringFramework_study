@@ -1,7 +1,8 @@
 # Study
 
 * [1. 에너테이션방식](#에너테이션방식)
-* [2. 프로파일방식](#프로파일방식)
+* [2. 프로파일방식(xml)](#프로파일방식1)
+* [3. 프로파일방식(java)](#프로파일방식2)
 
 ## 에너테이션방식
 - 에너테이션방식(클래스)
@@ -45,12 +46,13 @@
 
 <br/>
 
-## 프로파일방식
+## 프로파일방식1
 - 프로파일(profile) 속성을 이용한 설정
 - 동일한 스프링 빈을 여러개 만들어 놓고 상황(환경)에 따라서 적절한 스프링 빈을 사용할 수 있다.
 
 ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture10/img/theory.PNG?raw=true)
 
+> 사진출처 : https://www.inflearn.com/course/자바-스프링-강좌/
 
 <br/>
 
@@ -72,4 +74,6 @@
 ## ApplicationCTX_run
 ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture10/img/applicationCTX_run.PNG?raw=true)
 
+
+## 프로파일방식2
 
