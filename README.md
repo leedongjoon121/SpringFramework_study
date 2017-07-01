@@ -77,3 +77,22 @@
 
 ## 프로파일방식2
 
+<br/>
+
+## MainClass
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture10/img/8_3-2-Mainclass.PNG?raw=true)
+
+
+<br/>
+
+## ApplicationConfigDev
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture10/img/8_3-2-ApplicationConfigDev.PNG?raw=true)
+
+
+<br/>
+
+## ApplicationConfigRun
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture10/img/8_3-2-ApplicationConfigRun.PNG?raw=true)
+
+
+
