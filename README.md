@@ -1,6 +1,6 @@
 # Study
 ### 에너테이션방식 (클래스)
-### <context:property-placeholder location="" /> 를 이용한다.
+
 
 <br/>
 
