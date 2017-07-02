@@ -102,22 +102,15 @@
 <br/>
 
 # LogAop
+- @Aspect 라고 명시를 해주면 applicationCTX에서 <aop:aspectj-autoproxy /> 를 통해 자동으로 찾아줌
+- Pointcut을 사용하여 Around를 적용하는 방식과 pointcut을 이용하지않고 Before를 이용해 핵심기능 실행전 수행되게 할수도 있다.
 ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture11/document_img/10-1_LogAop.PNG?raw=true)
 
 
 <br/>
 
 # applicationCTX
+- <aop:aspectj-autoproxy />를 통해 대행자를 자동으로 생성하며 LogAop클래스의 @Aspect를 자동으로 찾아가서 실행 시켜줌
 ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture11/document_img/10-1_applicationCTX.PNG?raw=true)
 
 
-<br/>
-
-# Advice종류
-## ![사진](?raw=true)
-
-
-<br/>
-
-# Advice종류
-## ![사진](?raw=true)
