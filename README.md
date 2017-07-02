@@ -92,3 +92,32 @@
 # @Aspect를 이용한 AOP구현
 ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture11/document_img/10-1_theory.PNG?raw=true)
 
+
+<br/>
+
+# Main
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture11/document_img/10-1_main.PNG?raw=true)
+
+
+<br/>
+
+# LogAop
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture11/document_img/10-1_LogAop.PNG?raw=true)
+
+
+<br/>
+
+# applicationCTX
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture11/document_img/10-1_applicationCTX.PNG?raw=true)
+
+
+<br/>
+
+# Advice종류
+## ![사진](?raw=true)
+
+
+<br/>
+
+# Advice종류
+## ![사진](?raw=true)
