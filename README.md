@@ -64,6 +64,8 @@
 <br/>
 
 # applicationCTX.xml
+- aop 설정부분, 공통으로 사용할 부분에 대한 기능 구현
+- Student 빈과 Worker 빈 두군데에서 사용
 ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture11/document_img/applicationCTX_xml.PNG?raw=true)
 
 <br/>
