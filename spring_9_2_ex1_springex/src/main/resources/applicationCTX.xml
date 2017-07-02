@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd">
+
+    <!-- LogAop 클래스부분의 bean 객체 생성  -->
+	<bean id="logAop" class="com.javalec.ex.LogAop" />
+	
+	
+	<!-- aop 설정 부분 
+	   logAop를 참조 하고 있으며 id 는 logger
+	   <aop:pointcut : 핵심 부분,  expression="within(com.javalec.ex.*)" 
+	                             -> (com.javalec.ex.*) 이 안의 모든 부분에 적용하겠다.
+	   <aop:around : aop의 어떤 기능을 줄것이냐 ? ->  method="loggerAop" /> 기능을 주겠다.
+	   student와 worker 두개에 맞추어 공통 기능이 두번 실행 된다.
+	 -->
+	<aop:config>
+		<aop:aspect id="logger" ref="logAop">
+			<aop:pointcut id="publicM" expression="within(com.javalec.ex.*)"  />
+			<aop:around pointcut-ref="publicM" method="loggerAop" />
+		</aop:aspect>
+	</aop:config>
+	
+	<!-- student 빈  -->
+	<bean id="student" class="com.javalec.ex.Student" >
+		<property name="name" value="홍길동" />
+		<property name="age" value="10" />
+		<property name="gradeNum" value="3" />
+		<property name="classNum" value="5" />
+	</bean>
+	
+	<!-- worker 빈  -->
+	<bean id="worker" class="com.javalec.ex.Worker" >
+		<property name="name" value="홍길순" />
+		<property name="age" value="35" />
+		<property name="job" value="개발자" />
+	</bean>
+	
+</beans>
