@@ -3,6 +3,7 @@
 * [1. AOP기본](#AOP)
 * [2. AOP기본용어](#AOP기본용어)
 * [3. 예제를 통해 기본원리 파악하기:spring_9_2_ex1_springex](#예제1)
+* [4. 예제를 통해 기본원리 파악하기:spring_10_1_ex1_springex](#예제2)
 
 <hr/>
 
@@ -84,3 +85,10 @@
 
 # Advice종류
 ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture11/document_img/theory_AOP3.PNG?raw=true)
+
+<br/>
+
+# 예제2
+# @Aspect를 이용한 AOP구현
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture11/document_img/10-1_theory.PNG?raw=true)
+
