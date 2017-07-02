@@ -2,8 +2,8 @@
 
 * [1. AOP기본](#AOP)
 * [2. AOP기본용어](#AOP기본용어)
-* [3. 예제를 통해 기본원리 파악하기:spring_9_2_ex1_springex](#예제1)
-* [4. 예제를 통해 기본원리 파악하기:spring_10_1_ex1_springex](#예제2)
+* [3. 예제를 통해 기본원리 파악하기 : spring_9_2_ex1_springex](#예제1)
+* [4. 예제를 통해 기본원리 파악하기_@Aspect방식이용 : spring_10_1_ex1_springex](#예제2)
 
 <hr/>
 
