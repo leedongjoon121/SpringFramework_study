@@ -22,6 +22,7 @@
 
 ## AOP 원리
 - Proxy를 이용하여 로직상의 핵심기능을 매핑시켜준다.
+- 1. 실행초반, 실행끝부분, 실행중 exception이 발생했을때 proxy가 끼어든다.
 - 스프링에서 AOP 구현 방식으로는 크게 XML스키마 기반, @Aspect 어노테이션 기반의 두가지 방식이있다.
 ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture11/document_img/theory1.PNG?raw=true)
 
