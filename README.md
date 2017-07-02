@@ -4,6 +4,8 @@
 * [2. AOP기본용어](#AOP기본용어)
 * [3. 예제를 통해 기본원리 파악하기_Xml기반 : spring_9_2_ex1_springex](#예제1)
 * [4. 예제를 통해 기본원리 파악하기_@Aspect방식이용 : spring_10_1_ex1_springex](#예제2)
+* [5. AspectJ Pointcut 표현식](#표현식)
+
 
 <hr/>
 
@@ -112,5 +114,12 @@
 # applicationCTX
 - <aop:aspectj-autoproxy />를 통해 대행자를 자동으로 생성하며 LogAop클래스의 @Aspect를 자동으로 찾아가서 실행 시켜줌
 ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture11/document_img/10-1_applicationCTX.PNG?raw=true)
+
+
+<br/>
+
+# 표현식
+- pointcut지정할 때 사용하는 
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture11/document_img/10-1_theory2.PNG?raw=true)
 
 
