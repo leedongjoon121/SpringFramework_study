@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/mvc"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<!-- DispatcherServlet Context: defines this servlet's request-processing infrastructure -->
+	
+	<!-- Enables the Spring MVC @Controller programming model -->
+	<annotation-driven />
+
+	<!-- Dispatcher에서 전부 가로채지 말고, /resources/** 부분은 예외적으로 아래와 같이 처리 해라. -->
+	<resources mapping="/resources/**" location="/resources/" />
+	
+	<!-- myresources로 오는건 아래와 같이 처리해 주세요 -->
+	<resources mapping="/myresources/**" location="/myresources/" />
+
+	<!-- Resolves views selected for rendering by @Controllers to .jsp resources in the /WEB-INF/views directory -->
+	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<beans:property name="prefix" value="/WEB-INF/views/" />
+		<!-- WEB-INF/views/ + 뷰이름 + .jsp 를 찾아줌, 알아서 뷰페이지의 경로를 설정 해준다. 따라서 우리는 뷰의 이름만 정의해도 된다.-->
+		<!-- Homcontroller의 @RequestMapping에 의해 리턴되는 String 값이 jsp 파일의 이름이 된다. (리턴되는 String.jsp 형식) -->
+		<beans:property name="suffix" value=".jsp" />
+		<!--  -->
+	</beans:bean>
+	
+	<!-- 이 부분이 스프링을 스캔함  "com.javalec.ex" 이 안에 있는 것들만,  => 거기서 @Controller를 찾음 -->
+	<context:component-scan base-package="com.javalec.ex" />
+	
+</beans:beans>
