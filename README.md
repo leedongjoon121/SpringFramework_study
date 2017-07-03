@@ -7,8 +7,19 @@
 <br/>
 <br/>
 
+<br/>
 
-  
+# 컨트롤러 클래스 제작 순서
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture13/document_img/theory_controller.PNG?raw=true)
+
+
+<br/>
+
+# 프로젝트 디렉터리 (view)
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture13/document_img/directory.PNG?raw=true)
+
+
+
 <br/>
 
 # 클라이언트 요청처리 @RequestMapping
@@ -35,23 +46,18 @@
 
 <br/>
 
-#
-## ![사진](?raw=true)
+# 클래스에 @RequestMapping 적용
+- 보통 메서드에 @RequestMapping 어노테이션을 적용하지만, 클래스에 적용할 수도있따
+- 클래스 부터 적용하고 -> 클래스 내부 메서드에 적용하면, 조합된 경로로(클래스+메서드) 매핑된다.
+
+## ![사진](?raw=true).
+
+
 
 
 <br/>
 
-#
-## ![사진](?raw=true)
+# HomeController.java
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture13/document_img/HomeController.PNG?raw=true)
 
 
-<br/>
-
-#
-## ![사진](?raw=true)
-
-
-<br/>
-
-#
-## ![사진](?raw=true)
