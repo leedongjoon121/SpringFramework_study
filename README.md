@@ -20,6 +20,13 @@
 
 ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture12/document_img/theory_MVC.PNG?raw=true)
 
+
+<br/>
+
+# 프로젝트 디렉터리
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture12/document_img/theory_pro.PNG?raw=true)
+
+
 <br/>
 
 # Controller
@@ -30,8 +37,10 @@
 
 <br/>
 
-# 프로젝트 디렉터리
-## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture12/document_img/theory_pro.PNG?raw=true)
+# web.xml 동작과정
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture12/document_img/theory_xml.PNG?raw=true)
+
+
 
 <br/>
 
@@ -49,14 +58,15 @@
 ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture12/document_img/servelt-context_xml.PNG?raw=true)
 
 
-<br/>
-
-# Controller
-## ![사진](?raw=true)
-
 
 <br/>
 
-# Controller
-## ![사진](?raw=true)
+# home.jsp => View영역
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture12/document_img/home_jsp.PNG?raw=true)
+
+
+<br/>
+
+# test.jsp => View영역
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture12/document_img/test_jsp.PNG?raw=true)
 
