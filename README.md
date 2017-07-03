@@ -1,6 +1,6 @@
 # 스프링 MVC
+> 스프링 MVC에 대한 기본적인 원리와 구조를 학습
 
-* [1. MVC구조](#MVC구조)
 
 <hr/>
 
@@ -69,4 +69,11 @@
 
 # test.jsp => View영역
 ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture12/document_img/test_jsp.PNG?raw=true)
+
+<br/>
+
+# Result
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture12/document_img/result.PNG?raw=true)
+
+
 
