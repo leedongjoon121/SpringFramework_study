@@ -22,4 +22,32 @@
 
 <br/>
 
+# Controller
+- Dispatcher가 넘긴 클라이언트의 요청을 수행
+- Request 매핑을 통해 내부 로직을 수행
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture12/document_img/HomeController_java.PNG?raw=true)
+
+
+<br/>
+
+# Controller
+## ![사진](?raw=true)
+
+
+<br/>
+
+# Controller
+## ![사진](?raw=true)
+
+
+<br/>
+
+# Controller
+## ![사진](?raw=true)
+
+
+<br/>
+
+# Controller
+## ![사진](?raw=true)
 
