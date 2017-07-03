@@ -10,9 +10,11 @@
 
   
 <br/>
+
 # 클라이언트 요청처리 @RequestMapping
 - 요청경로와 해당하는 뷰페이지 이름 : String을 리턴 
 - 뷰페이지의 이름은 prefix (/WEB-INF/views) + 리턴된 String value + suffix(.jsp)
+
 ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture13/document_img/theory_1.PNG?raw=true)
 
 <br/>
