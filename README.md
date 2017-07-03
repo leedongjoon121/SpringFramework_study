@@ -30,14 +30,23 @@
 
 <br/>
 
-# Controller
-## ![사진](?raw=true)
+# 프로젝트 디렉터리
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture12/document_img/theory_pro.PNG?raw=true)
+
+<br/>
+
+# Web.xml
+- 어떤 요청이 최초로 들어오면 모든 요청은 web.xml에서 처리한다.
+- 서블릿을 매핑시킴
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture12/document_img/web_xml.PNG?raw=true)
 
 
 <br/>
 
-# Controller
-## ![사진](?raw=true)
+# servlet-context.xml
+- <context:component-scan base-package="com.javalec.ex" /> 을 통해 스프링을 스캔
+- <resources mapping="" location="" /> : 모든 자원을 Dispatcher에서 가로채는 것이아닌 예외 사항들 처리
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture12/document_img/servelt-context_xml.PNG?raw=true)
 
 
 <br/>
