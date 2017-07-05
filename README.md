@@ -1,6 +1,6 @@
 # Spring 데이터 전송 기본
 
-* [1. HttpServletRequest방식](#HttpServletRequest)
+* [1. HttpServletRequest방식](#HttpServletRequest방식)
 * [2. RequestParam방식](#RequestParam)
 * [3. 데이터(커멘드)객체방식](#DataObject)
 * [4. ParhVariable방식](#PathVariable)
