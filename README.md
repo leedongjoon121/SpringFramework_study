@@ -3,6 +3,8 @@
 * [1. HttpServletRequest방식](#HttpServletRequest)
 * [2. RequestParam방식](#RequestParam)
 * [3. 데이터(커멘드)객체방식](#DataObject)
+* [4. ParhVariable방식](#PathVariable)
+* [5. 구현부분:예제코드&결과](#Example)
 
 <hr/>
 
@@ -17,7 +19,6 @@
 - url로 부터 값이 넘어오지 않아도 페이지가 넘어가긴 한다.
 
 ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture14/document_img/theory_httpserveltRequest.PNG?raw=true)
-
 
 <br/>
 
@@ -41,13 +42,54 @@
 
 
 <br/>
-## ![사진](?raw=true)
--
+# PathVariable
+- @PathVariable를 이용하여 경로에 변수를 넣어 요청메서드에 파라미터로 이용가능
+
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture14/document_img/theory_PathVariable.PNG?raw=true)
+
 
 <br/>
-## ![사진](?raw=true)
--
+
+# Example
+
+## HomeController.java
+
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture14/document_img/homcontroller1.PNG?raw=true)
+
+## HomeController.java
+
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture14/document_img/homcontroller2.PNG?raw=true)
+
+## Member.java
+
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture14/document_img/Member.PNG?raw=true)
+
+## View영역 : member/join.jsp
+
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture14/document_img/member_join_jsp.PNG?raw=true)
+
+## View영역 : board/checkId.jsp
+
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture14/document_img/board_checkId_jsp.PNG?raw=true)
+
+## View영역 : board/confirmId.jsp
+
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture14/document_img/board_confirmId_jsp.PNG?raw=true)
+
+
+
+## 결과 : HttpServeltRequest
+
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture14/document_img/result1.PNG?raw=true)
+
+## 결과 : RequestParam
+
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture14/document_img/result2.PNG?raw=true)
+
+## 결과 : DataObject
+
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/lecture14/document_img/result3.PNG?raw=true)
+
 
 <br/>
-## ![사진](?raw=true)
--
+
