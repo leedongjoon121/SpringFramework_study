@@ -42,6 +42,7 @@
 
 
 <br/>
+
 # PathVariable
 - @PathVariable를 이용하여 경로에 변수를 넣어 요청메서드에 파라미터로 이용가능
 
