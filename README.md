@@ -56,6 +56,7 @@
 
 ## Server : context.xml
 - Oracle DB와 연동하기 위해 Resource 추가
+- Server context는 보안상 업로드 하지 않았다 => 각자 본인의 Server 환경을 설정해주면된다
 
 ## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/master/document_img/server_context_xml.png?raw=true)
 
