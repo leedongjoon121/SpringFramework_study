@@ -15,11 +15,11 @@
 - Server : Tomcat 7.0
 - Oracle JDBC driver 
 
-* [1. Project구조](#Project구조)
+* [1. 프로젝트구조](#프로젝트구조)
 * [2. 프로젝트디렉터리](#프로젝트디렉터리)
 * [3. 환경설정](#환경설정)
-* [4. Code](#Code)
-* [5. Result](#Result)
+* [4. 코드](#코드)
+* [5. 결과](#결과)
 
 
 <hr/>
@@ -27,7 +27,7 @@
 <br/>
 <br/>
 
-# Project구조
+# 프로젝트구조
 
 > 클라이언트로 부터 요청이오면 Dispatcher가 해당 요청을 MainController에게 넘기고 MainController는 각각의 세부적인
   컨트롤러에 명령을 할당 DAO를 통해 글쓰기,내용확인,수정,삭제,댓글 등의 기능을 수행하기 위한 DB Connection 및 SQL 쿼리문을 전송
@@ -60,7 +60,7 @@
 
 <br/>
 
-# Code
+# 코드
 
 <br/>
 
@@ -115,7 +115,7 @@
 
 <br/>
 
-# Result
+# 결과
 
 ## list
 - 사용자별 번호,이름,제목,날짜,조회수 등을 확인할 수있다.
