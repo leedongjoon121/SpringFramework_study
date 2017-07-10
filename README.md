@@ -19,7 +19,7 @@
 * [2. 프로젝트디렉터리](#프로젝트디렉터리)
 * [3. 환경설정](#환경설정)
 * [4. Code](#Code)
-* [5. AspectJ Pointcut 표현식](#표현식)
+* [5. Result](#Result)
 
 
 <hr/>
@@ -61,10 +61,6 @@
 <br/>
 
 # Code
-## DTO
-- 데이터 구조 셋팅, 각종 getter,setter 메서드
-
-## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/master/document_img/DTO.PNG?raw=true)
 
 <br/>
 
@@ -111,13 +107,31 @@
 
 <br/>
 
-## 
+## List View(list.jsp)
+- 모든 글의 list를 보여주는 view
 
-## ![사진](?raw=true)
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/master/document_img/list_jsp.PNG?raw=true)
 
 
 <br/>
 
-## 
+# Result
 
-## ![사진](?raw=true)
+## list
+- 사용자별 번호,이름,제목,날짜,조회수 등을 확인할 수있다.
+
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/master/document_img/list_view.PNG?raw=true)
+
+<br/>
+
+## write 
+- 사용자별 제목,이름,내용 등을 작성할 수있다.
+
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/master/document_img/write.PNG?raw=true)
+
+<br/>
+
+## modify
+- 사용자가 작성한 글을 수정,삭제, 답변 할수있다.
+
+## ![사진](https://github.com/leedongjoon121/SpringFramework_study/blob/master/document_img/modify.PNG?raw=true)
