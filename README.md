@@ -4,6 +4,7 @@
 - 강의 주소 : https://www.inflearn.com/course/자바-스프링-강좌/
 - 스터디의 내용을 각 단계별 branch에 업로드 하였습니다.
 - 각 branch 와 master 상관이 없습니다. 별도의 내용을 정리한 저장소입니다.
+- Spring의 기본 부터 개념 및 예제를 각 Branch에서 확인가능 합니다.
 
 <br/>
 
