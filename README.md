@@ -1,5 +1,12 @@
 ##  스프링 프레임워크 스터디
 
+### name :  Dongjoonlee 
+### nation : south korea
+### date of birth : 1993.04.06
+### univ : gachon university
+### email : ehdwns46@naver.com
+
+
 - 본 스터디 내용은 SEOUL WIZ의 Kim Myoung-ho (Nickname :블스)님의 강의 내용에 기반한 것 입니다.
 - 스터디의 내용을 각 단계별 branch에 업로드 하였습니다.
 - 각 branch 와 master 상관이 없습니다. 별도의 내용을 정리한 저장소입니다.
